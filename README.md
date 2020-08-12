@@ -68,7 +68,7 @@ export declare const closeModal: (name?: string) => void | undefined;
 ```
 
 ### Prepare Modal
-## prepared modal exsit always
+#### prepared modal exsit always
 
 ```jsx
 import {openModal} from 'react-native-card-modal-reanimated';
