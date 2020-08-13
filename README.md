@@ -1,7 +1,7 @@
 # react-native-card-modal-reanimated
-react-native-card-modal-reanimated is a cross-platform, pure js component. Modal transition vertically slides the modal view up from the bottom of the screen and back down when it's dismissed.
+react-native-card-modal-reanimated is a **cross-platform**, **smooth animation**, pure js component. Modal transition vertically slides the modal view up from the bottom of the screen and back down when it's dismissed.
 
-<img width="280" src='https://raw.githubusercontent.com/13773753970/images/master/bottom-button.gif'/>
+<img width="280" src='https://raw.githubusercontent.com/13773753970/images/master/card-modal-reanimated.gif'/>
 
 ### Dependencies
 
