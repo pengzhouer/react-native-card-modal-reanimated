@@ -24,6 +24,10 @@ cd ios && pod install
 yarn add react-native-card-modal-reanimated
 ```
 
+### Why another wheel instead of CardStyleInterpolators.forModalPresentationIOS
+react-navigation CardStyleInterpolators.forModalPresentationIOS just a transition animation, can not handle gesture event exactly. 
+On the contrary, react-native-card-modal-reanimated have greate gesture handler and animation no difference with original ios modal animation.
+
 ## Usage
 
 ### Basic
