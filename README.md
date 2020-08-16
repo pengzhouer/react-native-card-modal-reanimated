@@ -112,7 +112,7 @@ declare type ModalNavigation = {
 ```
 
 ### Custom Header
-[Modal C example](https://github.com/13773753970/react-native-card-modal-reanimated/)
+[Modal C example](https://github.com/13773753970/react-native-card-modal-reanimated/blob/master/Example/src/ModalC.tsx)
 
 ## Example
 
