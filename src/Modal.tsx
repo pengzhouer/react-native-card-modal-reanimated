@@ -104,7 +104,7 @@ function Modal(props: Props){
                 didFocusCallbackRef.current = null;
             }
         }
-    }), [name, isLast, params, gestureHandler]);
+    }), [name, isLast, params, gestureHandler]); // 要改成不依赖isLast  尽量少更新这个字段
 
     useCode(() => {
         if(isLast && ready){
@@ -234,6 +234,8 @@ function Modal(props: Props){
                     [
                         stopClock(closeClock),
                         stopClock(snapClock),
+                        set(onClosing, 0),
+                        set(shouldToSnap, 0),
                         set(springState.finished, 1),
                         set(springState.position, viewportHeight),
                         call([], () => {
@@ -251,7 +253,7 @@ function Modal(props: Props){
                 }))
             ])
         }
-    }, [isLast, index, name, ready]);
+    }, [isLast, index, name, ready, firstOpen]);
 
     useCode(() => block([
         cond(
