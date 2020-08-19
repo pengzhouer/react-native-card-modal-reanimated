@@ -5492,10 +5492,10 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react-native-card-modal-reanimated@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/react-native-card-modal-reanimated/-/react-native-card-modal-reanimated-1.0.0.tgz#c300d95ae91f90155428a308925aebb42287acd4"
-  integrity sha512-0P5Zrq6tkyeIEfBCEDdDB9rsI47X+GiYz18hgaqB5BDrig+9X5qmbYoUoUYPTwR6hHhdXNangvI8QG0OgMa7MA==
+react-native-card-modal-reanimated@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/react-native-card-modal-reanimated/-/react-native-card-modal-reanimated-1.0.2.tgz#0222bbe1c047462fc929cf4eb59a105754bfb265"
+  integrity sha512-usiD3fYyiyfwFR2ZbCAVx0oJF81UMvRnQcMX3b+aLgkPvJLZhV1ITTVtixN33EZmegcPvEHXWLma0YKzajK/gA==
 
 react-native-gesture-handler@^1.7.0:
   version "1.7.0"

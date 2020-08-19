@@ -10,12 +10,11 @@ import ModalC from './src/ModalC';
 
 const SlideModalContainer = createSlideModal([
     {name: "ModalA", title: "Modal A", component: ModalA},
-    {name: "ModalB", title: (params: any) => (params && params.headerTitle) ? params.headerTitle : 'DEFAULT', hideHeaderButton: true, component: ModalB},
+    {name: "ModalB", title: (params: any) => (params && params.headerTitle) ? params.headerTitle : 'DEFAULT', component: ModalB},
     {name: "ModalC", title: "Modal C", hideHeader: true, component: ModalC},
 ]);
 
 const App = () => {
-    
     return (
         <SafeAreaProvider initialMetrics={initialWindowMetrics}>
             <SlideModalContainer>
